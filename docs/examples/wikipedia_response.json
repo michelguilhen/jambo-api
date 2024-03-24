@@ -1,0 +1,53 @@
+{
+    "type": "standard",
+    "title": "Calgary",
+    "displaytitle": "<span class=\"mw-page-title-main\">Calgary</span>",
+    "namespace": {
+        "id": 0,
+        "text": ""
+    },
+    "wikibase_item": "Q36312",
+    "titles": {
+        "canonical": "Calgary",
+        "normalized": "Calgary",
+        "display": "<span class=\"mw-page-title-main\">Calgary</span>"
+    },
+    "pageid": 15895358,
+    "thumbnail": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Downtown_Calgary_2020-4.jpg/320px-Downtown_Calgary_2020-4.jpg",
+        "width": 320,
+        "height": 154
+    },
+    "originalimage": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Downtown_Calgary_2020-4.jpg",
+        "width": 1200,
+        "height": 577
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1215058920",
+    "tid": "85f00e07-e893-11ee-b983-2d5bc01afb33",
+    "timestamp": "2024-03-22T21:31:20Z",
+    "description": "Largest city in Alberta, Canada",
+    "description_source": "local",
+    "coordinates": {
+        "lat": 51.05,
+        "lon": -114.06666667
+    },
+    "content_urls": {
+        "desktop": {
+            "page": "https://en.wikipedia.org/wiki/Calgary",
+            "revisions": "https://en.wikipedia.org/wiki/Calgary?action=history",
+            "edit": "https://en.wikipedia.org/wiki/Calgary?action=edit",
+            "talk": "https://en.wikipedia.org/wiki/Talk:Calgary"
+        },
+        "mobile": {
+            "page": "https://en.m.wikipedia.org/wiki/Calgary",
+            "revisions": "https://en.m.wikipedia.org/wiki/Special:History/Calgary",
+            "edit": "https://en.m.wikipedia.org/wiki/Calgary?action=edit",
+            "talk": "https://en.m.wikipedia.org/wiki/Talk:Calgary"
+        }
+    },
+    "extract": "Calgary is the largest city in the Canadian province of Alberta. It is the largest metro area within the three Prairie Provinces region. As of 2021, the city proper had a population of 1,306,784 and a metropolitan population of 1,481,806, making it the third-largest city and fifth-largest metropolitan area in Canada.",
+    "extract_html": "<p><b>Calgary</b> is the largest city in the Canadian province of Alberta. It is the largest metro area within the three Prairie Provinces region. As of 2021, the city proper had a population of 1,306,784 and a metropolitan population of 1,481,806, making it the third-largest city and fifth-largest metropolitan area in Canada.</p>"
+}

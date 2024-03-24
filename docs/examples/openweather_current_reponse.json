@@ -1,0 +1,47 @@
+{
+    "coord": {
+        "lon": -114.0655,
+        "lat": 51.0461
+    },
+    "weather": [
+        {
+            "id": 600,
+            "main": "Snow",
+            "description": "light snow",
+            "icon": "13d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": -6.2,
+        "feels_like": -13.2,
+        "temp_min": -7.87,
+        "temp_max": -4.54,
+        "pressure": 1014,
+        "humidity": 80
+    },
+    "visibility": 6437,
+    "wind": {
+        "speed": 6.17,
+        "deg": 120,
+        "gust": 9.26
+    },
+    "snow": {
+        "1h": 0.11
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1711222155,
+    "sys": {
+        "type": 2,
+        "id": 2011327,
+        "country": "CA",
+        "sunrise": 1711200645,
+        "sunset": 1711245264
+    },
+    "timezone": -21600,
+    "id": 5913490,
+    "name": "Calgary",
+    "cod": 200
+}
