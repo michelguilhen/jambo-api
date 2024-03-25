@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { cityService } from "../services/city";
+import { cityService } from "../services/city.service";
 
 const controller = {
   getAll(_: Request, response: Response) {
