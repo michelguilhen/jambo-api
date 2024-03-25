@@ -1,30 +1,50 @@
 export const cities = [
   {
     name: "Toronto",
-    displayText: "Toronto, Canada",
+    details: "Ontario, Canada",
   },
   {
-    name: "Sao Paulo",
-    displayText: "Sao Paulo, Brazil",
+    name: "Calgary",
+    details: "Alberta, Canada",
   },
   {
-    name: "Prague",
-    displayText: "Prague, Czech Republic",
+    name: "Chicago",
+    details: "Illinois, USA",
+  },
+  {
+    name: "Los Angeles",
+    details: "California, USA",
+  },
+  {
+    name: "Mexico City",
+    details: "Mexico",
+  },
+  {
+    name: "Brasilia",
+    details: "Distrito Federal, Brazil",
+  },
+  {
+    name: "London",
+    details: "England, UK",
   },
   {
     name: "Madrid",
-    displayText: "Madrid, Spain",
+    details: "Spain",
   },
   {
-    name: "Sydney",
-    displayText: "Sydney, Australia",
+    name: "Berlin",
+    details: "Germany",
+  },
+  {
+    name: "Shanghai",
+    details: "Jiangsu, China",
   },
   {
     name: "Tokyo",
-    displayText: "Tokyo, Japan",
+    details: "Japan",
   },
   {
-    name: "Bangkok",
-    displayText: "Bangkok, Thailand",
+    name: "Sydney",
+    details: "New South Wales, Australia",
   },
 ];
