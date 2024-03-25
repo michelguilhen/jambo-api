@@ -3,7 +3,7 @@ import City from "../models/city.model";
 import { cities } from "../data/cities";
 
 const service = {
-  getAll(): Array<{ name: string; displayText: string }> {
+  getAll(): Array<{ name: string; details: string }> {
     return cities;
   },
 
