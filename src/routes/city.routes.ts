@@ -1,17 +1,10 @@
-import { Request, Response, Router } from "express";
-import { cityService } from "../services/city";
+import { Router } from "express";
+import { cityController } from "../controller/city";
 
 const cityRoutes = Router();
 
-cityRoutes.get("/cities", (_, response: Response) => {
-  const cities = cityService.getAll();
-  response.send(cities);
-});
+cityRoutes.get("/cities", cityController.getAll);
 
-cityRoutes.get("/cities/:name", async (request: Request, response: Response) => {
-  const name = request.params.name;
-  const city = await cityService.getDetailsByName(name);
-  response.send(city);
-});
+cityRoutes.get("/cities/:name", cityController.getByName);
 
 export default cityRoutes;
