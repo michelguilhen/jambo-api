@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import { weatherService } from "../services/weather.service";
+import { handleError } from "../utils/handleError";
 
 const controller = {
   async getCurrent(request: Request, response: Response) {
@@ -11,8 +12,8 @@ const controller = {
       }
       const weather = await weatherService.getCurrentWeather(latitude, longitude);
       response.send(weather);
-    } catch {
-      throw new Error("Invalid parameters");
+    } catch (error) {
+      handleError(response, error);
     }
   },
 
@@ -25,8 +26,8 @@ const controller = {
       }
       const weather = await weatherService.getForecast(latitude, longitude);
       response.send(weather);
-    } catch {
-      throw new Error("Invalid parameters");
+    } catch (error) {
+      handleError(response, error);
     }
   },
 };
