@@ -47,13 +47,16 @@ const client = {
     latitude: number,
     longitude: number,
   ): Promise<OpenWeatherForecastResponse> {
-    const apiKey = process.env.OPENWEATHER_API_KEY;
-    // TODO: improve query params building
-    const url = `${process.env.OPENWEATHER_API_URL}/forecast?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
     try {
-      const response = await fetch(`${url}`);
-      const data = (await response.json()) as OpenWeatherForecastResponse;
-      return data;
+      const response = await httpClient.get<OpenWeatherForecastResponse>("/forecast", {
+        params: {
+          lat: latitude,
+          lon: longitude,
+          appid: process.env.OPENWEATHER_API_KEY,
+          units: "metric",
+        },
+      });
+      return response.data;
     } catch (error) {
       console.error(error);
       throw new Error(
