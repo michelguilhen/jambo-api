@@ -27,7 +27,6 @@ const client = {
       const response = await httpClient.get<WikipediaReponse>(`/page/summary/${name}`);
       return response.data;
     } catch (error) {
-      console.error(error);
       throw new Error(`Error fetching summary.`);
     }
   },

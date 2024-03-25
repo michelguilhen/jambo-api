@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { weatherService } from "../services/weather.service";
-import { handleError } from "../utils/handleError";
+import { handleError } from "../errors/handleError";
 
 const controller = {
   async getCurrent(request: Request, response: Response) {

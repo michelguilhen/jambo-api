@@ -36,7 +36,6 @@ const client = {
 
       return response.data;
     } catch (error) {
-      console.error(error);
       throw new Error(
         `Error fetching current weather for latitude: ${latitude} | longitude: ${longitude}.`,
       );
@@ -58,7 +57,6 @@ const client = {
       });
       return response.data;
     } catch (error) {
-      console.error(error);
       throw new Error(
         `Error fetching current weather for latitude: ${latitude} | longitude: ${longitude}.`,
       );

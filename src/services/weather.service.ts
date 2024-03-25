@@ -38,7 +38,7 @@ const service = {
           ({
             condition: forecast.weather[0].main,
             temp: forecast.main.temp,
-            feelsLike: forecast.main.temp,
+            feelsLike: forecast.main.feels_like,
             min: forecast.main.temp_min,
             max: forecast.main.temp_max,
             date: new Date(forecast.dt_txt),

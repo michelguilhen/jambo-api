@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { cityService } from "../services/city.service";
-import { handleError } from "../utils/handleError";
+import { handleError } from "../errors/handleError";
 
 const controller = {
   getAll(_: Request, response: Response) {
