@@ -15,7 +15,7 @@ app.use(express.json());
 app.use("/api", cityRoutes);
 app.use("/api", weatherRoutes);
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   console.log("Application listing on port", process.env.PORT);
   console.log("Environment:", process.env.NODE_ENV);
 });
